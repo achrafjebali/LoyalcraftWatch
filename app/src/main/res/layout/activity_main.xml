@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wearable.view.BoxInsetLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.loyalcraft.loyalcraftwatch.MainActivity"
+    android:background="#3d505a"
+    tools:deviceIds="wear">
+
+    <ImageButton
+        android:id="@+id/bloyal"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/bloyal"
+        app:layout_box="all"/>
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/loyall"
+        />
+
+
+
+</android.support.wearable.view.BoxInsetLayout>

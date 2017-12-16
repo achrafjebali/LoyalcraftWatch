@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">LoyalcraftWatch</string>
+    <string name="hello_world">Hello World!</string>
+
+    <!--Signin-->
+    <string name="username">Username</string>
+    <string name="email">Your E-Mail</string>
+    <string name="password">Your password</string>
+    <string name="forgot">Forget?</string>
+    <string name="sign_in">Signin</string>
+    <string name="new_here">Don\'t have an account?</string>
+    <string name="or">or</string>
+    <string name="signing_in">Signing in...</string>
+    <string name="need_signup">Sign up for free</string>
+    <string name="google_login">Google+</string>
+    <string name="facebook_login">Facebook</string>
+
+</resources>
